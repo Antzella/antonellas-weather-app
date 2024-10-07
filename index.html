@@ -3,41 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Morandi Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
+    <div class="app-container">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
 
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Tuesday 14:49, scattered clouds
-          <br />
-          Humidity: 68%, Wind: 3.34km/h
-        </p>
-      </div>
-      <div>☀️ 12°C</div>
-    </main>
-    <footer>
-      Coded by
-      <a href="https://github.com/Antzella" target="_blank"
-        >Antonella Scaravilli</a
-      >, code hosted on
-      <a
-        href="https://github.com/Antzella/antonellas-weather-app"
-        target="_blank"
-        >Github</a
-      >
-      and website hosted on
-      <a href="https://morandiweatherapp.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      <main>
+        <div class="weather-app-data">
+          <div>
+            <h1>Paris</h1>
+            <p>
+              Tuesday 14:49, scattered clouds
+              <br />
+              Humidity: 68%, Wind: 3.34km/h
+            </p>
+          </div>
+          <div>☀️ 12°C</div>
+        </div>
+      </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/Antzella" target="_blank"
+          >Antonella Scaravilli</a
+        >, code hosted on
+        <a
+          href="https://github.com/Antzella/antonellas-weather-app"
+          target="_blank"
+          >Github</a
+        >
+        and website hosted on
+        <a href="https://morandiweatherapp.netlify.app/" target="_blank"
+          >Netlify.</a
+        >
+        <br />
+        Colors picked using this
+        <a
+          href="https://justfreeslide.com/morandi-color-picker/"
+          target="_blank"
+          >Morandi Color Picker.</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
