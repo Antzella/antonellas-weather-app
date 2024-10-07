@@ -12,3 +12,20 @@ body {
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.68);
   padding: 30px;
 }
+
+.search-form-input {
+  background-color: #f9f7fe;
+  border: none;
+  border-radius: 6px;
+  width: 80%;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+
+.search-form-button {
+  background: #fd9270;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
