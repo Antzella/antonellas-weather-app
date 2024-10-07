@@ -16,22 +16,26 @@
     <div class="app-container">
       <header>
         <form class="search-form">
-          <input type="search" placeholder="Enter a city..." class="search-form-input"/>
-          <input type="submit" value="Search" class="search-form-input-button"/>
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            class="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-form-button" />
         </form>
       </header>
 
       <main>
         <div class="weather-app-data">
           <div>
-            <h1>Paris</h1>
-            <p>
+            <h1 class="weather-app-city">Paris</h1>
+            <p class="weather-app-details">
               Tuesday 14:49, scattered clouds
               <br />
               Humidity: 68%, Wind: 3.34km/h
             </p>
           </div>
-          <div>☀️ 12°C</div>
+          <div class="weather-app-temperature">☀️ 12°C</div>
         </div>
       </main>
       <footer>
@@ -49,7 +53,7 @@
           >Netlify.</a
         >
         <br />
-        Colors picked using this
+        Colors picked using
         <a
           href="https://justfreeslide.com/morandi-color-picker/"
           target="_blank"
