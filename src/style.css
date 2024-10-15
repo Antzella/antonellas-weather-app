@@ -91,6 +91,15 @@ main {
   font-size: 28px;
 }
 
+.weather-forecast-date {
+  color: #8b7f8b;
+  text-align: center;
+}
+
+.weather-forecast-temperature {
+  color: #fec37d;
+}
+
 footer {
   border-top: 1px solid #dcdddf;
   padding: 30px 0 0 0;
